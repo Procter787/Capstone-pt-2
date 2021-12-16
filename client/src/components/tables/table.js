@@ -26,14 +26,18 @@ export default makeStyles({
         marginLeft: 'auto',
         backgroundColor: 'white',
         borderCollapse: 'separate',
-        borderRadius: 6
+        borderRadius: 6,
     },
     tablehead: {
         backgroundColor: '#ff7700'
     },
     imageCenter:{
-        alignItems: "center",
         height: "auto",
-        width: "40%"
+        width: "40%",
+        display: "block",
+        margin: "0 auto"
+    },
+    tableMargin:{
+        marginBottom: 50,
     }
 })

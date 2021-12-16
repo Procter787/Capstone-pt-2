@@ -27,8 +27,8 @@ const HomePage = () => {
   
 
 <Container maxidth="lg">
-<AppBar position="static" color="inherit">
-    <Typography  className={classes.heading} variant="h2" align="center">Fly Utah</Typography>
+<AppBar  className={`${classes.headerMargin} ${classes.roundCorners}`} position="static" color="inherit">
+    <Typography  className={`${classes.heading}`} variant="h2" align="center">Fly Utah</Typography>
     {/* <img className={classes.image} src={memories} alt="memories" height="60" /> */}
 </AppBar>
 <Grow in>

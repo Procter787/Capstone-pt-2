@@ -25,8 +25,11 @@ export default makeStyles(() => ({
     alignItems: 'center',
     textAlign: 'center'
   },
-  container: {
-    
+  headerMargin: {
+    margin: "40px 0"
+  },
+  roundCorners: {
+    borderRadius: 6,
   }
 }));
 
