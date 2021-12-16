@@ -8,7 +8,7 @@ export default function Fish({ fish }) {
                 {fish.fType}
             </td>
             <td>
-                <img src={fish.imageUrl} alt="fish"/>
+                <img src={fish.imageUrl} alt="fish" height="80" />
             </td>
         </tr>
     );

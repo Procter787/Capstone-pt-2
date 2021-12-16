@@ -9,33 +9,33 @@ export default function Fistlist() {
         {
             id: 1,
             fType: "Rainbow",
-            imageUrl: "public/fishImages/rainbow.jpg"
+            imageUrl: "/fishImages/fishPics/rainbow.jpg"
         },
         {
             id: 2,
             fType: "Brown",
-            imageUrl: "public/fishImages/browntrout.jpg"
+            imageUrl: "/fishImages/fishPics/browntrout.jpg"
         },
         {
             id:3,
             fType: "Brook",
-            imageUrl: "public/fishImages/brook.jpg"
+            imageUrl: "/fishImages/fishPics/brook.jpg"
         },
         {
             id:3,
             fType: "Cutthroat",
-            imageUrl: "public/fishImages/cutthroat.jpg"
+            imageUrl: "/fishImages/fishPics/cutthroat.jpg"
         },
         {
             id:3,
             fType: "Mountain Whitefish",
-            imageUrl: "public/fishImages/whitefish.jpg"
+            imageUrl: "/fishImages/fishPics/whitefish.jpg"
         }
     ];
 
     return (
         <div className="container" id="fishtable">
-            <table className={classes.tablecenter}>
+            <table className={`${classes.tablecenter} ${classes.tableMargin}`}>
                 <thead className={classes.tablehead}>
                     <tr>
                         <th>Name</th>
